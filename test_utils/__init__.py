@@ -163,6 +163,7 @@ class FastFixtureTestCase(test.TransactionTestCase):
         """Load fixture data, and commit."""
         for db in cls._databases():
             if hasattr(cls, 'fixtures'):
+                print "FIXTURES: %s" % sorted(cls.fixtures)
                 call_command('loaddata', *cls.fixtures, **{'verbosity': 0,
                                                            'commit': False,
                                                            'database': db})

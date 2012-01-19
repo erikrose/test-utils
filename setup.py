@@ -3,8 +3,8 @@ from setuptools import setup
 
 setup(
     name='test-utils',
-    version='0.3',
-    description='Grab bag of test utilities for Django & Jinja2 & Selenium.',
+    version='0.4',
+    description="Utilities to go with Mozilla's specific Django test setup",
     long_description=open('README.rst').read(),
     author='Jeff Balogh',
     author_email='jbalogh@mozilla.com',

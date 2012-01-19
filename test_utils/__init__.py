@@ -16,7 +16,7 @@ from nose import SkipTest
 from test_utils import signals
 
 
-VERSION = (0, 3)
+VERSION = (0, 4)
 __version__ = '.'.join(map(str, VERSION))
 
 # We only want to run through setup_test_environment once.

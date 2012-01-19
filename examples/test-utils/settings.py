@@ -1,4 +1,4 @@
-TEST_RUNNER = 'django_nose.runner.NoseTestSuiteRunner'
+TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 
 DATABASES = {
     'default': {

@@ -1,5 +1,5 @@
 # These are the reqs to build docs and run tests.
 sphinx
--e git://github.com/jbalogh/django-nose.git@6f060d49ee193a05734704820f3fea92ee1759d2#egg=django-nose
+-e git://github.com/erikrose/django-nose.git@403b1feaa7f19454da9cf2a735d994d83f1bd146#egg=django-nose
 -e svn+http://code.djangoproject.com/svn/django/trunk#egg=Django
 fabric
